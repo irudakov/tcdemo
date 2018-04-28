@@ -8,6 +8,8 @@ services:
       - hub
     environment:
       HUB_HOST: hub
+    ports:
+      - "5900:5900"
 
   chrome:
     image: selenium/node-chrome-debug
@@ -15,6 +17,8 @@ services:
       - hub
     environment:
       HUB_HOST: hub
+    ports:
+      - "5901:5900"
 
   hub:
     image: selenium/hub
