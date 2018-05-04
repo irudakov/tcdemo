@@ -1,0 +1,146 @@
+1525358900891	geckodriver	INFO	geckodriver 0.20.1
+1525358900910	geckodriver	INFO	Listening on 127.0.0.1:60952
+1525358903972	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.3tFmyb0mdAf8"
+1525358906832	Marionette	INFO	Enabled via --marionette
+1525358909378	Marionette	INFO	Listening on port 60961
+1525358910082	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525358911618	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[Child 11932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11932, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525358967350	geckodriver	INFO	geckodriver 0.20.1
+1525358967363	geckodriver	INFO	Listening on 127.0.0.1:61026
+1525358970381	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.OB4Vtwd8KGKZ"
+1525358971136	Marionette	INFO	Enabled via --marionette
+1525358973282	Marionette	INFO	Listening on port 61034
+1525358973520	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://portal.wdf.sap.corp/htmlb/jslib/sapUrMapi_nn7.js, line 618: unreachable code after return statement
+JavaScript warning: https://portal.wdf.sap.corp/htmlb/jslib/sapUrMapi_nn7.js, line 16197: unreachable code after return statement
+JavaScript warning: https://portal.wdf.sap.corp/htmlb/jslib/sapUrMapi_nn7.js, line 23987: unreachable code after return statement
+JavaScript warning: https://portal.wdf.sap.corp/htmlb/jslib/sapUrMapi_nn7.js, line 24008: unreachable code after return statement
+JavaScript error: https://portal.wdf.sap.corp/js/jquery.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://portal.wdf.sap.corp/js/bootstrap.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://portal.wdf.sap.corp/js/main.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://apps.wdf.sap.corp/uh/new/jquery-2.0.3.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 11548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11548, Chro1525359040646	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1525359040664	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1525359040666	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525359101759	geckodriver	INFO	geckodriver 0.20.1
+1525359101773	geckodriver	INFO	Listening on 127.0.0.1:61135
+1525359104787	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.Plh7ZdKx52PF"
+1525359105518	Marionette	INFO	Enabled via --marionette
+1525359107526	Marionette	INFO	Listening on port 61147
+1525359107928	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://portal.wdf.sap.corp/htmlb/jslib/sapUrMapi_nn7.js, line 618: unreachable code after return statement
+JavaScript warning: https://portal.wdf.sap.corp/htmlb/jslib/sapUrMapi_nn7.js, line 16197: unreachable code after return statement
+JavaScript warning: https://portal.wdf.sap.corp/htmlb/jslib/sapUrMapi_nn7.js, line 23987: unreachable code after return statement
+JavaScript warning: https://portal.wdf.sap.corp/htmlb/jslib/sapUrMapi_nn7.js, line 24008: unreachable code after return statement
+JavaScript error: https://portal.wdf.sap.corp/js/jquery.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://portal.wdf.sap.corp/js/bootstrap.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://portal.wdf.sap.corp/js/main.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://apps.wdf.sap.corp/uh/new/jquery-2.0.3.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 12572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12572, Chrome_Ch[GPU 1800, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525359428787	geckodriver	INFO	geckodriver 0.20.1
+1525359428803	geckodriver	INFO	Listening on 127.0.0.1:61684
+1525359431853	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.ojo7qArDl3xf"
+1525359432458	Marionette	INFO	Enabled via --marionette
+1525359434360	Marionette	INFO	Listening on port 61696
+1525359435054	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525359435158	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[Child 10504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10504, Ch[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525359484160	geckodriver	INFO	geckodriver 0.20.1
+1525359484176	geckodriver	INFO	Listening on 127.0.0.1:61785
+1525359487210	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.1uU0s29MWN8b"
+1525359487834	Marionette	INFO	Enabled via --marionette
+1525359489732	Marionette	INFO	Listening on port 61797
+1525359490418	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525359491574	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[Child 6988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 14236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525359507697	geckodriver	INFO	geckodriver 0.20.1
+1525359507712	geckodriver	INFO	Listening on 127.0.0.1:61861
+1525359510761	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.qz0cQnHNP7D7"
+1525359511428	Marionette	INFO	Enabled via --marionette
+1525359513310	Marionette	INFO	Listening on port 61875
+1525359513984	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525359516182	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x510027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 14384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14384, Ch[GPU 11368, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525359545624	geckodriver	INFO	geckodriver 0.20.1
+1525359545639	geckodriver	INFO	Listening on 127.0.0.1:61976
+1525359548683	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.g1Sus2Hv9OL0"
+1525359549300	Marionette	INFO	Enabled via --marionette
+1525359551072	Marionette	INFO	Listening on port 61988
+1525359551866	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525359553900	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[Child 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525359603252	geckodriver	INFO	geckodriver 0.20.1
+1525359603268	geckodriver	INFO	Listening on 127.0.0.1:62113
+1525359606345	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.QH4YbIlhKNhB"
+1525359607000	Marionette	INFO	Enabled via --marionette
+1525359608828	Marionette	INFO	Listening on port 62125
+1525359609544	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525359724816	geckodriver	INFO	geckodriver 0.20.1
+1525359724842	geckodriver	INFO	Listening on 127.0.0.1:62381
+1525359727893	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.OeTp4JAlrreA"
+1525359728536	Marionette	INFO	Enabled via --marionette
+1525359730338	Marionette	INFO	Listening on port 62393
+1525359731114	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Chi[[GPU 11692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525359864082	geckodriver	INFO	geckodriver 0.20.1
+1525359864098	geckodriver	INFO	Listening on 127.0.0.1:62653
+1525359867396	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.PSDZhphZU2s1"
+1525359868050	Marionette	INFO	Enabled via --marionette
+1525359869904	Marionette	INFO	Listening on port 62665
+1525359870592	Marionette	WARN	TLS certificate errors will be ignored for this session
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525359948522	geckodriver	INFO	geckodriver 0.20.1
+1525359948522	geckodriver	INFO	Listening on 127.0.0.1:65093
+1525359951595	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.V1N5BhFSZsHJ"
+1525359952220	Marionette	INFO	Enabled via --marionette
+1525359954248	Marionette	INFO	Listening on port 65107
+1525359954796	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525360137694	geckodriver	INFO	geckodriver 0.20.1
+1525360137710	geckodriver	INFO	Listening on 127.0.0.1:49160
+1525360140793	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\i056949\\AppData\\Local\\Temp\\rust_mozprofile.EZw4KtAooM1N"
+1525360141454	Marionette	INFO	Enabled via --marionette
+1525360143456	Marionette	INFO	Listening on port 49172
+1525360143950	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13492, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
