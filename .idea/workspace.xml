@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8425afd-d704-4816-b3e7-5913670ca009" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/demoapp.html" afterDir="false" />
-    </list>
+    <list default="true" id="b8425afd-d704-4816-b3e7-5913670ca009" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/demoapp.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -214,7 +212,7 @@
     <entry file="file://$PROJECT_DIR$/demoapp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
