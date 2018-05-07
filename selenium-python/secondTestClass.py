@@ -14,7 +14,7 @@ class SeleniumPythonDemoClass(unittest.TestCase):
 
     def setUp(self):
         #self.driver = webdriver.Firefox()
-        self.driver = webdriver.Chrome()
+        #self.driver = webdriver.Chrome()
 
         #self.driver = webdriver.Remote(
         #    command_executor='http://127.0.0.1:4444/wd/hub',
