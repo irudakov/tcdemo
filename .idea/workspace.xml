@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8425afd-d704-4816-b3e7-5913670ca009" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/demoapp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-python/secondTestClass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-python/smoke-selenium-tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-python/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-python/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-python/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-python/venv/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-python/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-python/venv/Scripts/activate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-python/venv/Scripts/deactivate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-python/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-python/venv/Scripts/easy_install-3.6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-python/venv/Scripts/easy_install-3.6.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-python/venv/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-python/venv/Scripts/easy_install.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-python/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-python/venv/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-python/venv/Scripts/pip3.6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-python/venv/Scripts/pip3.6.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-python/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-python/venv/Scripts/pip3.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,10 +23,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tcdemo$Unittests_in_secondTestClass_py.coverage" NAME="Unittests in secondTestClass.py Coverage Results" MODIFIED="1525717883189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium-python" />
     <SUITE FILE_PATH="coverage/tcdemo$Unittests_in_smoke_selenium_tests_py.coverage" NAME="Unittests in smoke-selenium-tests.py Coverage Results" MODIFIED="1525726712002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium-python" />
+    <SUITE FILE_PATH="coverage/tcdemo$Unittests_in_test_smoke_selenium_py.coverage" NAME="Unittests in test_smoke_selenium.py Coverage Results" MODIFIED="1525776603515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium-python" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="docker-compose.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="docker-compose.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -37,11 +45,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smoke-selenium-tests.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/selenium-python/smoke-selenium-tests.py">
+      <file leaf-file-name="test_smoke_selenium.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium-python/test_smoke_selenium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in smoke-selenium-tests.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_smoke_selenium.py">
     <configuration name="Unittests in secondTestClass.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="tcdemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,12 +164,28 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/selenium-python/smoke-selenium-tests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Unittests in test_smoke_selenium.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="tcdemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium-python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/selenium-python/test_smoke_selenium.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in secondTestClass.py" />
       <item itemvalue="Python tests.Unittests in smoke-selenium-tests.py" />
+      <item itemvalue="Python tests.Unittests in test_smoke_selenium.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_smoke_selenium.py" />
         <item itemvalue="Python tests.Unittests in smoke-selenium-tests.py" />
         <item itemvalue="Python tests.Unittests in secondTestClass.py" />
       </list>
@@ -179,9 +205,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_secondTestClass_py - 2018.05.07 at 13h 49m 28s.xml">
-      <configuration name="Unittests in secondTestClass.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_secondTestClass_py - 2018.05.07 at 19h 22m 50s.xml">
       <configuration name="Unittests in secondTestClass.py" configurationId="tests" />
     </history-entry>
@@ -209,9 +232,13 @@
     <history-entry file="Unittests_in_smoke-selenium-tests_py - 2018.05.07 at 23h 58m 34s.xml">
       <configuration name="Unittests in smoke-selenium-tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_smoke_selenium_py - 2018.05.08 at 13h 50m 04s.xml">
+      <configuration name="Unittests in test_smoke_selenium.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -243,6 +270,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demoapp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-python/smoke-selenium-tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -343,10 +391,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium-python/secondTestClass.py" />
-    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+    <entry file="file://$PROJECT_DIR$/selenium-python/smoke-selenium-tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -357,10 +405,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-python/smoke-selenium-tests.py">
+    <entry file="file://$PROJECT_DIR$/selenium-python/test_smoke_selenium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,5 @@
+{
+  "test_smoke_selenium.py::SeleniumPythonDemoClass::test_best_practices_search": true,
+  "test_smoke_selenium.py::SeleniumPythonDemoClass::test_search_SAP_in_Google": true,
+  "test_smoke_selenium.py::SeleniumPythonDemoClass::test_simple_availibility": true
+}
