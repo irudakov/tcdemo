@@ -1,5 +1,5 @@
 [
-  "test_smoke_selenium.py::SeleniumPythonDemoClass::test_best_practices_search",
-  "test_smoke_selenium.py::SeleniumPythonDemoClass::test_search_SAP_in_Google",
-  "test_smoke_selenium.py::SeleniumPythonDemoClass::test_simple_availibility"
+  "test_smoke_selenium_version_2.py::SeleniumPythonDemoClass::test_best_practices_search",
+  "test_smoke_selenium_version_2.py::SeleniumPythonDemoClass::test_search_SAP_in_Google",
+  "test_smoke_selenium_version_2.py::SeleniumPythonDemoClass::test_simple_availibility"
 ]

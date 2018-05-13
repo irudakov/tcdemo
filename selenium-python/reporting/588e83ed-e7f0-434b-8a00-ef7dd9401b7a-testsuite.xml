@@ -1,0 +1,72 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1526034239987" stop="1526034254646">
+  <name>test_smoke_selenium_version_2</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1526034239987" status="passed" stop="1526034247351">
+      <name>SeleniumPythonDemoClass.test_best_practices_search</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3368-MainThread"/>
+        <label name="host" value="MOWN33953507A"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1526034244530" status="passed" stop="1526034247254">
+          <name>Launch site</name>
+          <title>Launch site</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1526034247353" status="passed" stop="1526034251019">
+      <name>SeleniumPythonDemoClass.test_search_SAP_in_Google</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Your Story here"/>
+        <label name="feature" value="Your Feature here"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3368-MainThread"/>
+        <label name="host" value="MOWN33953507A"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1526034248472" status="passed" stop="1526034250931">
+          <name>Launch site</name>
+          <title>Launch site</title>
+          <attachments/>
+          <steps>
+            <step start="1526034248472" status="passed" stop="1526034250931">
+              <name>some operation</name>
+              <title>some operation</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1526034251020" status="passed" stop="1526034254646">
+      <name>SeleniumPythonDemoClass.test_simple_availibility</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3368-MainThread"/>
+        <label name="host" value="MOWN33953507A"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1526034252159" status="passed" stop="1526034254556">
+          <name>Launch site</name>
+          <title>Launch site</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
